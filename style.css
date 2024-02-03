@@ -1,0 +1,62 @@
+.navItem {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+li {
+  list-style: none;
+  font-size: 25px;
+}
+li:hover {
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+.bgBanner {
+  background-image: url("img/bannerImg.png");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.aboutUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  height: 400px;
+  background-color: burlywood;
+}
+.AboutImg img {
+  height: 400px;
+  border-radius: 10px;
+}
+.text {
+  text-align: center;
+  padding: 20px;
+}
+.aboutTitle {
+  display: inline-block;
+  font-size: 35px;
+  border-bottom: 2px solid gray;
+}
+
+.ImgMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 5px;
+}
+.galleryTitle {
+  display: inline-block;
+  font-size: 35px;
+  border-bottom: 2px solid gray;
+  text-align: center;
+  margin-left: 400px;
+}
