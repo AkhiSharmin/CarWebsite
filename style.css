@@ -128,3 +128,19 @@ li:hover {
   box-shadow: 10px 5px 5px #212121;
   padding: 20px;
 }
+
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.contactImg img {
+  height: 500px;
+  width: 600px;
+}
+
+.contactSection {
+  display: block;
+}
