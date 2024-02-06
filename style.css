@@ -8,8 +8,9 @@ li {
   font-size: 25px;
 }
 li:hover {
-  background-color: lightcoral;
-  padding: 10px;
+  border-bottom: 2px solid burlywood;
+  padding: 5px;
+  transition-delay: 1s;
 }
 
 .bgBanner {
@@ -58,5 +59,72 @@ li:hover {
   font-size: 35px;
   border-bottom: 2px solid gray;
   text-align: center;
-  margin-left: 400px;
+  /* margin-left: 450px; */
+}
+
+.carText {
+  text-align: center;
+}
+
+.carTitle {
+  /* color: white; */
+  font-size: 35px;
+}
+.carContiner {
+  padding: 50px;
+}
+.carMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.carImg {
+  height: 250px;
+  width: 300px;
+}
+
+.carName {
+  font-size: 20px;
+  /* text-align: center; */
+}
+
+.carArival {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.new {
+  background-color: red;
+  color: white;
+  font-weight: 500;
+  padding: 3px;
+  border-radius: 5px;
+  text-transform: lowercase;
+}
+.details,
+.bookNow {
+  padding: 10px 25px;
+  font-weight: 700;
+  border: 0px;
+  background-color: burlywood;
+  border-radius: 5px;
+  color: white;
+}
+.bookNow {
+  background-color: gray;
+  margin-left: 10px;
+}
+.bgText {
+  background-color: rgba(222, 184, 135, 0.253);
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+.cars {
+  box-shadow: 10px 5px 5px #212121;
+  padding: 20px;
 }
